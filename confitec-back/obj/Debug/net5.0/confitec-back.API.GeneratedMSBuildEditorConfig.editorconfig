@@ -7,5 +7,5 @@ build_property.InvariantGlobalization =
 build_property.PlatformNeutralAssembly = 
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
-build_property.RootNamespace = dotnet_ie2_ef_core_database_first
-build_property.ProjectDir = G:\confitec\back\teste-tecnico-confitec-back\dotnet-ie2-ef-core-database-first\
+build_property.RootNamespace = confitec-back
+build_property.ProjectDir = G:\confitec\back\teste-tecnico-confitec-back\confitec-back\

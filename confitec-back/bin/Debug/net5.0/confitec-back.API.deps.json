@@ -33,9 +33,15 @@
     ".NETCoreApp,Version=v5.0": {
       "confitec-back.API/1.0.0": {
         "dependencies": {
+          "AutoMapper": "11.0.1",
+          "AutoMapper.Extensions.Microsoft.DependencyInjection": "11.0.0",
+          "Microsoft.EntityFrameworkCore": "5.0.15",
           "Microsoft.EntityFrameworkCore.Design": "5.0.15",
+          "Microsoft.EntityFrameworkCore.Relational": "5.0.15",
           "Microsoft.EntityFrameworkCore.SqlServer": "5.0.15",
+          "Microsoft.EntityFrameworkCore.Tools": "5.0.1",
           "Swashbuckle.AspNetCore": "5.6.3",
+          "Swashbuckle.AspNetCore.Swagger": "6.5.0",
           "confitec-back.BLL": "1.0.0",
           "confitec-back.DAL": "1.0.0",
           "confitec-back.DL": "1.0.0",
@@ -519,6 +525,11 @@
           "lib/netstandard2.1/Microsoft.EntityFrameworkCore.SqlServer.dll": {}
         }
       },
+      "Microsoft.EntityFrameworkCore.Tools/5.0.1": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.Design": "5.0.15"
+        }
+      },
       "Microsoft.Extensions.ApiDescription.Server/3.0.0": {},
       "Microsoft.Extensions.Caching.Abstractions/5.0.0": {
         "dependencies": {
@@ -766,28 +777,28 @@
       "Swashbuckle.AspNetCore/5.6.3": {
         "dependencies": {
           "Microsoft.Extensions.ApiDescription.Server": "3.0.0",
-          "Swashbuckle.AspNetCore.Swagger": "5.6.3",
+          "Swashbuckle.AspNetCore.Swagger": "6.5.0",
           "Swashbuckle.AspNetCore.SwaggerGen": "5.6.3",
           "Swashbuckle.AspNetCore.SwaggerUI": "5.6.3"
         }
       },
-      "Swashbuckle.AspNetCore.Swagger/5.6.3": {
+      "Swashbuckle.AspNetCore.Swagger/6.5.0": {
         "dependencies": {
           "Microsoft.OpenApi": "1.2.3"
         },
         "runtime": {
-          "lib/netcoreapp3.0/Swashbuckle.AspNetCore.Swagger.dll": {
-            "assemblyVersion": "5.6.3.0",
-            "fileVersion": "5.6.3.0"
+          "lib/net5.0/Swashbuckle.AspNetCore.Swagger.dll": {
+            "assemblyVersion": "6.5.0.0",
+            "fileVersion": "6.5.0.0"
           }
         },
         "compile": {
-          "lib/netcoreapp3.0/Swashbuckle.AspNetCore.Swagger.dll": {}
+          "lib/net5.0/Swashbuckle.AspNetCore.Swagger.dll": {}
         }
       },
       "Swashbuckle.AspNetCore.SwaggerGen/5.6.3": {
         "dependencies": {
-          "Swashbuckle.AspNetCore.Swagger": "5.6.3"
+          "Swashbuckle.AspNetCore.Swagger": "6.5.0"
         },
         "runtime": {
           "lib/netcoreapp3.0/Swashbuckle.AspNetCore.SwaggerGen.dll": {
@@ -1440,6 +1451,13 @@
       },
       "confitec-back.BLL/1.0.0": {
         "dependencies": {
+          "AutoMapper": "11.0.1",
+          "AutoMapper.Extensions.Microsoft.DependencyInjection": "11.0.0",
+          "Microsoft.EntityFrameworkCore": "5.0.15",
+          "Microsoft.EntityFrameworkCore.Relational": "5.0.15",
+          "Microsoft.EntityFrameworkCore.SqlServer": "5.0.15",
+          "Swashbuckle.AspNetCore": "5.6.3",
+          "Swashbuckle.AspNetCore.Swagger": "6.5.0",
           "confitec-back.DL": "1.0.0"
         },
         "runtime": {
@@ -1451,9 +1469,13 @@
       },
       "confitec-back.DAL/1.0.0": {
         "dependencies": {
+          "AutoMapper": "11.0.1",
+          "AutoMapper.Extensions.Microsoft.DependencyInjection": "11.0.0",
           "Microsoft.EntityFrameworkCore": "5.0.15",
           "Microsoft.EntityFrameworkCore.Relational": "5.0.15",
           "Microsoft.EntityFrameworkCore.SqlServer": "5.0.15",
+          "Swashbuckle.AspNetCore": "5.6.3",
+          "Swashbuckle.AspNetCore.Swagger": "6.5.0",
           "confitec-back.DL": "1.0.0"
         },
         "runtime": {
@@ -1466,7 +1488,12 @@
       "confitec-back.DL/1.0.0": {
         "dependencies": {
           "AutoMapper": "11.0.1",
-          "AutoMapper.Extensions.Microsoft.DependencyInjection": "11.0.0"
+          "AutoMapper.Extensions.Microsoft.DependencyInjection": "11.0.0",
+          "Microsoft.EntityFrameworkCore": "5.0.15",
+          "Microsoft.EntityFrameworkCore.Relational": "5.0.15",
+          "Microsoft.EntityFrameworkCore.SqlServer": "5.0.15",
+          "Swashbuckle.AspNetCore": "5.6.3",
+          "Swashbuckle.AspNetCore.Swagger": "6.5.0"
         },
         "runtime": {
           "confitec-back.DL.dll": {}
@@ -3229,6 +3256,13 @@
       "path": "microsoft.entityframeworkcore.sqlserver/5.0.15",
       "hashPath": "microsoft.entityframeworkcore.sqlserver.5.0.15.nupkg.sha512"
     },
+    "Microsoft.EntityFrameworkCore.Tools/5.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-aWC8uiAHkuZzOOxQwqzUyqRMGCCcqjthIUsJVn9I601UkVhxmHwvB/oARO1xb0GBaCfJuCJglo2wkehBjegwRQ==",
+      "path": "microsoft.entityframeworkcore.tools/5.0.1",
+      "hashPath": "microsoft.entityframeworkcore.tools.5.0.1.nupkg.sha512"
+    },
     "Microsoft.Extensions.ApiDescription.Server/3.0.0": {
       "type": "package",
       "serviceable": true,
@@ -3397,12 +3431,12 @@
       "path": "swashbuckle.aspnetcore/5.6.3",
       "hashPath": "swashbuckle.aspnetcore.5.6.3.nupkg.sha512"
     },
-    "Swashbuckle.AspNetCore.Swagger/5.6.3": {
+    "Swashbuckle.AspNetCore.Swagger/6.5.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-rn/MmLscjg6WSnTZabojx5DQYle2GjPanSPbCU3Kw8Hy72KyQR3uy8R1Aew5vpNALjfUFm2M/vwUtqdOlzw+GA==",
-      "path": "swashbuckle.aspnetcore.swagger/5.6.3",
-      "hashPath": "swashbuckle.aspnetcore.swagger.5.6.3.nupkg.sha512"
+      "sha512": "sha512-XWmCmqyFmoItXKFsQSwQbEAsjDKcxlNf1l+/Ki42hcb6LjKL8m5Db69OTvz5vLonMSRntYO1XLqz0OP+n3vKnA==",
+      "path": "swashbuckle.aspnetcore.swagger/6.5.0",
+      "hashPath": "swashbuckle.aspnetcore.swagger.6.5.0.nupkg.sha512"
     },
     "Swashbuckle.AspNetCore.SwaggerGen/5.6.3": {
       "type": "package",

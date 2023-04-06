@@ -1,5 +1,7 @@
 ﻿using confitec_back.DL.DB;
+using confitec_back.DL.Enums;
 using Microsoft.EntityFrameworkCore;
+using System;
 
 #nullable disable
 
@@ -56,6 +58,9 @@ namespace confitec_back.DAL
                     .HasColumnName("dataNascimento");
 
                 entity.Property(e => e.Escolaridade)
+                    .HasConversion(
+                        v => v.ToString(),
+                        v => (EEscolaridade)Enum.Parse(typeof(EEscolaridade), v))
                     .HasColumnName("escolaridade");
             });
 

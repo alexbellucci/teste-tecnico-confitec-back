@@ -1,35 +1,35 @@
 {
   "format": 1,
   "restore": {
-    "G:\\confitec\\back\\teste-tecnico-confitec-back\\dotnet-ie2-ef-core-database-first\\confitec-back.API.csproj": {}
+    "G:\\confitec\\back\\teste-tecnico-confitec-back\\confitec-back\\confitec-back.API.csproj": {}
   },
   "projects": {
-    "G:\\confitec\\back\\teste-tecnico-confitec-back\\dotnet-ie2-ef-core-database-first.BLL\\confitec-back.BLL.csproj": {
+    "G:\\confitec\\back\\teste-tecnico-confitec-back\\confitec-back.BLL\\confitec-back.BLL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "G:\\confitec\\back\\teste-tecnico-confitec-back\\dotnet-ie2-ef-core-database-first.BLL\\confitec-back.BLL.csproj",
+        "projectUniqueName": "G:\\confitec\\back\\teste-tecnico-confitec-back\\confitec-back.BLL\\confitec-back.BLL.csproj",
         "projectName": "confitec-back.BLL",
-        "projectPath": "G:\\confitec\\back\\teste-tecnico-confitec-back\\dotnet-ie2-ef-core-database-first.BLL\\confitec-back.BLL.csproj",
+        "projectPath": "G:\\confitec\\back\\teste-tecnico-confitec-back\\confitec-back.BLL\\confitec-back.BLL.csproj",
         "packagesPath": "C:\\Users\\Alex\\.nuget\\packages\\",
-        "outputPath": "G:\\confitec\\back\\teste-tecnico-confitec-back\\dotnet-ie2-ef-core-database-first.BLL\\obj\\",
+        "outputPath": "G:\\confitec\\back\\teste-tecnico-confitec-back\\confitec-back.BLL\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Alex\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net5.0"
+          "net7.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net5.0": {
-            "targetAlias": "net5.0",
+          "net7.0": {
+            "targetAlias": "net7.0",
             "projectReferences": {
-              "G:\\confitec\\back\\teste-tecnico-confitec-back\\dotnet-ie2-ef-core-database-first.DL\\confitec-back.DL.csproj": {
-                "projectPath": "G:\\confitec\\back\\teste-tecnico-confitec-back\\dotnet-ie2-ef-core-database-first.DL\\confitec-back.DL.csproj"
+              "G:\\confitec\\back\\teste-tecnico-confitec-back\\confitec-back.DL\\confitec-back.DL.csproj": {
+                "projectPath": "G:\\confitec\\back\\teste-tecnico-confitec-back\\confitec-back.DL\\confitec-back.DL.csproj"
               }
             }
           }
@@ -41,82 +41,21 @@
         }
       },
       "frameworks": {
-        "net5.0": {
-          "targetAlias": "net5.0",
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48",
-            "net481"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[5.0.0, 5.0.0]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[5.0.0, 5.0.0]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[5.0.0, 5.0.0]"
-            }
-          ],
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "G:\\confitec\\back\\teste-tecnico-confitec-back\\dotnet-ie2-ef-core-database-first.DAL\\confitec-back.DAL.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "G:\\confitec\\back\\teste-tecnico-confitec-back\\dotnet-ie2-ef-core-database-first.DAL\\confitec-back.DAL.csproj",
-        "projectName": "confitec-back.DAL",
-        "projectPath": "G:\\confitec\\back\\teste-tecnico-confitec-back\\dotnet-ie2-ef-core-database-first.DAL\\confitec-back.DAL.csproj",
-        "packagesPath": "C:\\Users\\Alex\\.nuget\\packages\\",
-        "outputPath": "G:\\confitec\\back\\teste-tecnico-confitec-back\\dotnet-ie2-ef-core-database-first.DAL\\obj\\",
-        "projectStyle": "PackageReference",
-        "configFilePaths": [
-          "C:\\Users\\Alex\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
-        ],
-        "originalTargetFrameworks": [
-          "net5.0"
-        ],
-        "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "net5.0": {
-            "targetAlias": "net5.0",
-            "projectReferences": {
-              "G:\\confitec\\back\\teste-tecnico-confitec-back\\dotnet-ie2-ef-core-database-first.DL\\confitec-back.DL.csproj": {
-                "projectPath": "G:\\confitec\\back\\teste-tecnico-confitec-back\\dotnet-ie2-ef-core-database-first.DL\\confitec-back.DL.csproj"
-              }
-            }
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        }
-      },
-      "frameworks": {
-        "net5.0": {
-          "targetAlias": "net5.0",
+        "net7.0": {
+          "targetAlias": "net7.0",
           "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[11.0.1, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[11.0.0, )"
+            },
+            "Flunt": {
+              "target": "Package",
+              "version": "[2.0.5, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[5.0.15, )"
@@ -134,6 +73,14 @@
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[5.0.15, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            },
+            "Swashbuckle.AspNetCore.Swagger": {
+              "target": "Package",
+              "version": "[6.5.0, )"
             }
           },
           "imports": [
@@ -147,20 +94,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[5.0.0, 5.0.0]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[5.0.0, 5.0.0]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[5.0.0, 5.0.0]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
@@ -170,117 +103,32 @@
         }
       }
     },
-    "G:\\confitec\\back\\teste-tecnico-confitec-back\\dotnet-ie2-ef-core-database-first.DL\\confitec-back.DL.csproj": {
+    "G:\\confitec\\back\\teste-tecnico-confitec-back\\confitec-back.DAL\\confitec-back.DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "G:\\confitec\\back\\teste-tecnico-confitec-back\\dotnet-ie2-ef-core-database-first.DL\\confitec-back.DL.csproj",
-        "projectName": "confitec-back.DL",
-        "projectPath": "G:\\confitec\\back\\teste-tecnico-confitec-back\\dotnet-ie2-ef-core-database-first.DL\\confitec-back.DL.csproj",
+        "projectUniqueName": "G:\\confitec\\back\\teste-tecnico-confitec-back\\confitec-back.DAL\\confitec-back.DAL.csproj",
+        "projectName": "confitec-back.DAL",
+        "projectPath": "G:\\confitec\\back\\teste-tecnico-confitec-back\\confitec-back.DAL\\confitec-back.DAL.csproj",
         "packagesPath": "C:\\Users\\Alex\\.nuget\\packages\\",
-        "outputPath": "G:\\confitec\\back\\teste-tecnico-confitec-back\\dotnet-ie2-ef-core-database-first.DL\\obj\\",
+        "outputPath": "G:\\confitec\\back\\teste-tecnico-confitec-back\\confitec-back.DAL\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Alex\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net5.0"
+          "net7.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net5.0": {
-            "targetAlias": "net5.0",
-            "projectReferences": {}
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        }
-      },
-      "frameworks": {
-        "net5.0": {
-          "targetAlias": "net5.0",
-          "dependencies": {
-            "AutoMapper": {
-              "target": "Package",
-              "version": "[11.0.1, )"
-            },
-            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
-              "target": "Package",
-              "version": "[11.0.0, )"
-            }
-          },
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48",
-            "net481"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[5.0.0, 5.0.0]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[5.0.0, 5.0.0]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[5.0.0, 5.0.0]"
-            }
-          ],
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "G:\\confitec\\back\\teste-tecnico-confitec-back\\dotnet-ie2-ef-core-database-first\\confitec-back.API.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "G:\\confitec\\back\\teste-tecnico-confitec-back\\dotnet-ie2-ef-core-database-first\\confitec-back.API.csproj",
-        "projectName": "confitec-back.API",
-        "projectPath": "G:\\confitec\\back\\teste-tecnico-confitec-back\\dotnet-ie2-ef-core-database-first\\confitec-back.API.csproj",
-        "packagesPath": "C:\\Users\\Alex\\.nuget\\packages\\",
-        "outputPath": "G:\\confitec\\back\\teste-tecnico-confitec-back\\dotnet-ie2-ef-core-database-first\\obj\\",
-        "projectStyle": "PackageReference",
-        "configFilePaths": [
-          "C:\\Users\\Alex\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
-        ],
-        "originalTargetFrameworks": [
-          "net5.0"
-        ],
-        "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "net5.0": {
-            "targetAlias": "net5.0",
+          "net7.0": {
+            "targetAlias": "net7.0",
             "projectReferences": {
-              "G:\\confitec\\back\\teste-tecnico-confitec-back\\dotnet-ie2-ef-core-database-first.BLL\\confitec-back.BLL.csproj": {
-                "projectPath": "G:\\confitec\\back\\teste-tecnico-confitec-back\\dotnet-ie2-ef-core-database-first.BLL\\confitec-back.BLL.csproj"
-              },
-              "G:\\confitec\\back\\teste-tecnico-confitec-back\\dotnet-ie2-ef-core-database-first.DAL\\confitec-back.DAL.csproj": {
-                "projectPath": "G:\\confitec\\back\\teste-tecnico-confitec-back\\dotnet-ie2-ef-core-database-first.DAL\\confitec-back.DAL.csproj"
-              },
-              "G:\\confitec\\back\\teste-tecnico-confitec-back\\dotnet-ie2-ef-core-database-first.DL\\confitec-back.DL.csproj": {
-                "projectPath": "G:\\confitec\\back\\teste-tecnico-confitec-back\\dotnet-ie2-ef-core-database-first.DL\\confitec-back.DL.csproj"
+              "G:\\confitec\\back\\teste-tecnico-confitec-back\\confitec-back.DL\\confitec-back.DL.csproj": {
+                "projectPath": "G:\\confitec\\back\\teste-tecnico-confitec-back\\confitec-back.DL\\confitec-back.DL.csproj"
               }
             }
           }
@@ -292,12 +140,28 @@
         }
       },
       "frameworks": {
-        "net5.0": {
-          "targetAlias": "net5.0",
+        "net7.0": {
+          "targetAlias": "net7.0",
           "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[11.0.1, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[11.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.15, )"
+            },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.15, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
               "target": "Package",
               "version": "[5.0.15, )"
             },
@@ -307,7 +171,11 @@
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
-              "version": "[5.6.3, )"
+              "version": "[6.5.0, )"
+            },
+            "Swashbuckle.AspNetCore.Swagger": {
+              "target": "Package",
+              "version": "[6.5.0, )"
             }
           },
           "imports": [
@@ -321,24 +189,208 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[5.0.0, 5.0.0]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Host.win-x64",
-              "version": "[5.0.17, 5.0.17]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[5.0.0, 5.0.0]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[5.0.0, 5.0.0]"
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
             }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "G:\\confitec\\back\\teste-tecnico-confitec-back\\confitec-back.DL\\confitec-back.DL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "G:\\confitec\\back\\teste-tecnico-confitec-back\\confitec-back.DL\\confitec-back.DL.csproj",
+        "projectName": "confitec-back.DL",
+        "projectPath": "G:\\confitec\\back\\teste-tecnico-confitec-back\\confitec-back.DL\\confitec-back.DL.csproj",
+        "packagesPath": "C:\\Users\\Alex\\.nuget\\packages\\",
+        "outputPath": "G:\\confitec\\back\\teste-tecnico-confitec-back\\confitec-back.DL\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Alex\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[11.0.1, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[11.0.0, )"
+            },
+            "Flunt": {
+              "target": "Package",
+              "version": "[2.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.15, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.15, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[5.0.15, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.15, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            },
+            "Swashbuckle.AspNetCore.Swagger": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
           ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "G:\\confitec\\back\\teste-tecnico-confitec-back\\confitec-back\\confitec-back.API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "G:\\confitec\\back\\teste-tecnico-confitec-back\\confitec-back\\confitec-back.API.csproj",
+        "projectName": "confitec-back.API",
+        "projectPath": "G:\\confitec\\back\\teste-tecnico-confitec-back\\confitec-back\\confitec-back.API.csproj",
+        "packagesPath": "C:\\Users\\Alex\\.nuget\\packages\\",
+        "outputPath": "G:\\confitec\\back\\teste-tecnico-confitec-back\\confitec-back\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Alex\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "G:\\confitec\\back\\teste-tecnico-confitec-back\\confitec-back.BLL\\confitec-back.BLL.csproj": {
+                "projectPath": "G:\\confitec\\back\\teste-tecnico-confitec-back\\confitec-back.BLL\\confitec-back.BLL.csproj"
+              },
+              "G:\\confitec\\back\\teste-tecnico-confitec-back\\confitec-back.DAL\\confitec-back.DAL.csproj": {
+                "projectPath": "G:\\confitec\\back\\teste-tecnico-confitec-back\\confitec-back.DAL\\confitec-back.DAL.csproj"
+              },
+              "G:\\confitec\\back\\teste-tecnico-confitec-back\\confitec-back.DL\\confitec-back.DL.csproj": {
+                "projectPath": "G:\\confitec\\back\\teste-tecnico-confitec-back\\confitec-back.DL\\confitec-back.DL.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[11.0.1, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[11.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.15, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.15, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[5.0.15, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.15, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            },
+            "Swashbuckle.AspNetCore.Swagger": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"

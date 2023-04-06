@@ -1,32 +1,32 @@
 {
   "format": 1,
   "restore": {
-    "G:\\confitec\\back\\teste-tecnico-confitec-back\\dotnet-ie2-ef-core-database-first.DL\\confitec-back.DL.csproj": {}
+    "G:\\confitec\\back\\teste-tecnico-confitec-back\\confitec-back.DL\\confitec-back.DL.csproj": {}
   },
   "projects": {
-    "G:\\confitec\\back\\teste-tecnico-confitec-back\\dotnet-ie2-ef-core-database-first.DL\\confitec-back.DL.csproj": {
+    "G:\\confitec\\back\\teste-tecnico-confitec-back\\confitec-back.DL\\confitec-back.DL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "G:\\confitec\\back\\teste-tecnico-confitec-back\\dotnet-ie2-ef-core-database-first.DL\\confitec-back.DL.csproj",
+        "projectUniqueName": "G:\\confitec\\back\\teste-tecnico-confitec-back\\confitec-back.DL\\confitec-back.DL.csproj",
         "projectName": "confitec-back.DL",
-        "projectPath": "G:\\confitec\\back\\teste-tecnico-confitec-back\\dotnet-ie2-ef-core-database-first.DL\\confitec-back.DL.csproj",
+        "projectPath": "G:\\confitec\\back\\teste-tecnico-confitec-back\\confitec-back.DL\\confitec-back.DL.csproj",
         "packagesPath": "C:\\Users\\Alex\\.nuget\\packages\\",
-        "outputPath": "G:\\confitec\\back\\teste-tecnico-confitec-back\\dotnet-ie2-ef-core-database-first.DL\\obj\\",
+        "outputPath": "G:\\confitec\\back\\teste-tecnico-confitec-back\\confitec-back.DL\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Alex\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net5.0"
+          "net7.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net5.0": {
-            "targetAlias": "net5.0",
+          "net7.0": {
+            "targetAlias": "net7.0",
             "projectReferences": {}
           }
         },
@@ -37,8 +37,8 @@
         }
       },
       "frameworks": {
-        "net5.0": {
-          "targetAlias": "net5.0",
+        "net7.0": {
+          "targetAlias": "net7.0",
           "dependencies": {
             "AutoMapper": {
               "target": "Package",
@@ -47,6 +47,36 @@
             "AutoMapper.Extensions.Microsoft.DependencyInjection": {
               "target": "Package",
               "version": "[11.0.0, )"
+            },
+            "Flunt": {
+              "target": "Package",
+              "version": "[2.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.15, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.15, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[5.0.15, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.15, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            },
+            "Swashbuckle.AspNetCore.Swagger": {
+              "target": "Package",
+              "version": "[6.5.0, )"
             }
           },
           "imports": [
@@ -60,20 +90,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[5.0.0, 5.0.0]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[5.0.0, 5.0.0]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[5.0.0, 5.0.0]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"

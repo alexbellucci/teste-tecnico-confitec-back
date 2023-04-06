@@ -1,4 +1,5 @@
-﻿using confitec_back.DL.Services.DAL;
+﻿using confitec_back.DL.Enums;
+using confitec_back.DL.Services.DAL;
 using System;
 
 #nullable disable
@@ -16,7 +17,7 @@ namespace confitec_back.DL.DB
         public string UltimoNome { get; set; }
         public string Email { get; set; }
         public DateTime DataNascimento { get; set; }
-        public int Escolaridade { get; set; }
+        public EEscolaridade Escolaridade { get; set; }
     }
 }
 
