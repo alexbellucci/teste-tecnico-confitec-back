@@ -1,0 +1,12 @@
+D:\iteris\database-first\dotnet-ie2-ef-core-database-first\src\dotnet-ie2-ef-core-database-first\dotnet-ie2-ef-core-database-first.DL\bin\Debug\net5.0\dotnet-ie2-ef-core-database-first.DL.deps.json
+D:\iteris\database-first\dotnet-ie2-ef-core-database-first\src\dotnet-ie2-ef-core-database-first\dotnet-ie2-ef-core-database-first.DL\bin\Debug\net5.0\dotnet-ie2-ef-core-database-first.DL.dll
+D:\iteris\database-first\dotnet-ie2-ef-core-database-first\src\dotnet-ie2-ef-core-database-first\dotnet-ie2-ef-core-database-first.DL\bin\Debug\net5.0\ref\dotnet-ie2-ef-core-database-first.DL.dll
+D:\iteris\database-first\dotnet-ie2-ef-core-database-first\src\dotnet-ie2-ef-core-database-first\dotnet-ie2-ef-core-database-first.DL\bin\Debug\net5.0\dotnet-ie2-ef-core-database-first.DL.pdb
+D:\iteris\database-first\dotnet-ie2-ef-core-database-first\src\dotnet-ie2-ef-core-database-first\dotnet-ie2-ef-core-database-first.DL\obj\Debug\net5.0\dotnet-ie2-ef-core-database-first.DL.csproj.AssemblyReference.cache
+D:\iteris\database-first\dotnet-ie2-ef-core-database-first\src\dotnet-ie2-ef-core-database-first\dotnet-ie2-ef-core-database-first.DL\obj\Debug\net5.0\dotnet-ie2-ef-core-database-first.DL.GeneratedMSBuildEditorConfig.editorconfig
+D:\iteris\database-first\dotnet-ie2-ef-core-database-first\src\dotnet-ie2-ef-core-database-first\dotnet-ie2-ef-core-database-first.DL\obj\Debug\net5.0\dotnet-ie2-ef-core-database-first.DL.AssemblyInfoInputs.cache
+D:\iteris\database-first\dotnet-ie2-ef-core-database-first\src\dotnet-ie2-ef-core-database-first\dotnet-ie2-ef-core-database-first.DL\obj\Debug\net5.0\dotnet-ie2-ef-core-database-first.DL.AssemblyInfo.cs
+D:\iteris\database-first\dotnet-ie2-ef-core-database-first\src\dotnet-ie2-ef-core-database-first\dotnet-ie2-ef-core-database-first.DL\obj\Debug\net5.0\dotnet-ie2-ef-core-database-first.DL.csproj.CoreCompileInputs.cache
+D:\iteris\database-first\dotnet-ie2-ef-core-database-first\src\dotnet-ie2-ef-core-database-first\dotnet-ie2-ef-core-database-first.DL\obj\Debug\net5.0\dotnet-ie2-ef-core-database-first.DL.dll
+D:\iteris\database-first\dotnet-ie2-ef-core-database-first\src\dotnet-ie2-ef-core-database-first\dotnet-ie2-ef-core-database-first.DL\obj\Debug\net5.0\ref\dotnet-ie2-ef-core-database-first.DL.dll
+D:\iteris\database-first\dotnet-ie2-ef-core-database-first\src\dotnet-ie2-ef-core-database-first\dotnet-ie2-ef-core-database-first.DL\obj\Debug\net5.0\dotnet-ie2-ef-core-database-first.DL.pdb

@@ -1,0 +1,12 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <RootNamespace>dotnet_ie2_ef_core_database_first.BLL</RootNamespace>
+  </PropertyGroup>
+	
+  <ItemGroup>
+	 <ProjectReference Include="..\dotnet-ie2-ef-core-database-first.DL\confitec-back.DL.csproj" />
+  </ItemGroup>
+
+</Project>

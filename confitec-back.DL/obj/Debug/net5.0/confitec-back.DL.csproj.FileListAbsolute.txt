@@ -1,0 +1,12 @@
+G:\confitec\back\teste-tecnico-confitec-back\dotnet-ie2-ef-core-database-first.DL\bin\Debug\net5.0\confitec-back.DL.deps.json
+G:\confitec\back\teste-tecnico-confitec-back\dotnet-ie2-ef-core-database-first.DL\bin\Debug\net5.0\confitec-back.DL.dll
+G:\confitec\back\teste-tecnico-confitec-back\dotnet-ie2-ef-core-database-first.DL\bin\Debug\net5.0\confitec-back.DL.pdb
+G:\confitec\back\teste-tecnico-confitec-back\dotnet-ie2-ef-core-database-first.DL\obj\Debug\net5.0\confitec-back.DL.csproj.AssemblyReference.cache
+G:\confitec\back\teste-tecnico-confitec-back\dotnet-ie2-ef-core-database-first.DL\obj\Debug\net5.0\confitec-back.DL.GeneratedMSBuildEditorConfig.editorconfig
+G:\confitec\back\teste-tecnico-confitec-back\dotnet-ie2-ef-core-database-first.DL\obj\Debug\net5.0\confitec-back.DL.AssemblyInfoInputs.cache
+G:\confitec\back\teste-tecnico-confitec-back\dotnet-ie2-ef-core-database-first.DL\obj\Debug\net5.0\confitec-back.DL.AssemblyInfo.cs
+G:\confitec\back\teste-tecnico-confitec-back\dotnet-ie2-ef-core-database-first.DL\obj\Debug\net5.0\confitec-back.DL.csproj.CoreCompileInputs.cache
+G:\confitec\back\teste-tecnico-confitec-back\dotnet-ie2-ef-core-database-first.DL\obj\Debug\net5.0\confitec-back.DL.dll
+G:\confitec\back\teste-tecnico-confitec-back\dotnet-ie2-ef-core-database-first.DL\obj\Debug\net5.0\refint\confitec-back.DL.dll
+G:\confitec\back\teste-tecnico-confitec-back\dotnet-ie2-ef-core-database-first.DL\obj\Debug\net5.0\confitec-back.DL.pdb
+G:\confitec\back\teste-tecnico-confitec-back\dotnet-ie2-ef-core-database-first.DL\obj\Debug\net5.0\ref\confitec-back.DL.dll

@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <RootNamespace>dotnet_ie2_ef_core_database_first.DL</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="DB\Endereco.cs~RF1a097135.TMP" />
+    <None Remove="Services\DAL\IUsuarioRepository.cs~RF1a3470f6.TMP" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="11.0.1" />
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="11.0.0" />
+  </ItemGroup>
+
+</Project>

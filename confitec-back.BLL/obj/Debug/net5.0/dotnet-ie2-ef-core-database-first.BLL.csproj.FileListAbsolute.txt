@@ -1,0 +1,15 @@
+D:\iteris\database-first\dotnet-ie2-ef-core-database-first\src\dotnet-ie2-ef-core-database-first\dotnet-ie2-ef-core-database-first.BLL\bin\Debug\net5.0\dotnet-ie2-ef-core-database-first.BLL.deps.json
+D:\iteris\database-first\dotnet-ie2-ef-core-database-first\src\dotnet-ie2-ef-core-database-first\dotnet-ie2-ef-core-database-first.BLL\bin\Debug\net5.0\dotnet-ie2-ef-core-database-first.BLL.dll
+D:\iteris\database-first\dotnet-ie2-ef-core-database-first\src\dotnet-ie2-ef-core-database-first\dotnet-ie2-ef-core-database-first.BLL\bin\Debug\net5.0\ref\dotnet-ie2-ef-core-database-first.BLL.dll
+D:\iteris\database-first\dotnet-ie2-ef-core-database-first\src\dotnet-ie2-ef-core-database-first\dotnet-ie2-ef-core-database-first.BLL\bin\Debug\net5.0\dotnet-ie2-ef-core-database-first.BLL.pdb
+D:\iteris\database-first\dotnet-ie2-ef-core-database-first\src\dotnet-ie2-ef-core-database-first\dotnet-ie2-ef-core-database-first.BLL\bin\Debug\net5.0\dotnet-ie2-ef-core-database-first.DL.dll
+D:\iteris\database-first\dotnet-ie2-ef-core-database-first\src\dotnet-ie2-ef-core-database-first\dotnet-ie2-ef-core-database-first.BLL\bin\Debug\net5.0\dotnet-ie2-ef-core-database-first.DL.pdb
+D:\iteris\database-first\dotnet-ie2-ef-core-database-first\src\dotnet-ie2-ef-core-database-first\dotnet-ie2-ef-core-database-first.BLL\obj\Debug\net5.0\dotnet-ie2-ef-core-database-first.BLL.csproj.AssemblyReference.cache
+D:\iteris\database-first\dotnet-ie2-ef-core-database-first\src\dotnet-ie2-ef-core-database-first\dotnet-ie2-ef-core-database-first.BLL\obj\Debug\net5.0\dotnet-ie2-ef-core-database-first.BLL.GeneratedMSBuildEditorConfig.editorconfig
+D:\iteris\database-first\dotnet-ie2-ef-core-database-first\src\dotnet-ie2-ef-core-database-first\dotnet-ie2-ef-core-database-first.BLL\obj\Debug\net5.0\dotnet-ie2-ef-core-database-first.BLL.AssemblyInfoInputs.cache
+D:\iteris\database-first\dotnet-ie2-ef-core-database-first\src\dotnet-ie2-ef-core-database-first\dotnet-ie2-ef-core-database-first.BLL\obj\Debug\net5.0\dotnet-ie2-ef-core-database-first.BLL.AssemblyInfo.cs
+D:\iteris\database-first\dotnet-ie2-ef-core-database-first\src\dotnet-ie2-ef-core-database-first\dotnet-ie2-ef-core-database-first.BLL\obj\Debug\net5.0\dotnet-ie2-ef-core-database-first.BLL.csproj.CoreCompileInputs.cache
+D:\iteris\database-first\dotnet-ie2-ef-core-database-first\src\dotnet-ie2-ef-core-database-first\dotnet-ie2-ef-core-database-first.BLL\obj\Debug\net5.0\dotnet-ie2-ef-core-database-first.BLL.csproj.CopyComplete
+D:\iteris\database-first\dotnet-ie2-ef-core-database-first\src\dotnet-ie2-ef-core-database-first\dotnet-ie2-ef-core-database-first.BLL\obj\Debug\net5.0\dotnet-ie2-ef-core-database-first.BLL.dll
+D:\iteris\database-first\dotnet-ie2-ef-core-database-first\src\dotnet-ie2-ef-core-database-first\dotnet-ie2-ef-core-database-first.BLL\obj\Debug\net5.0\ref\dotnet-ie2-ef-core-database-first.BLL.dll
+D:\iteris\database-first\dotnet-ie2-ef-core-database-first\src\dotnet-ie2-ef-core-database-first\dotnet-ie2-ef-core-database-first.BLL\obj\Debug\net5.0\dotnet-ie2-ef-core-database-first.BLL.pdb
