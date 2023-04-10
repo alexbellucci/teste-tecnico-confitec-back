@@ -7,6 +7,8 @@ using System.Collections.Generic;
 using System.Text.RegularExpressions;
 using System;
 using System.Threading.Tasks;
+using System.Linq;
+using Microsoft.EntityFrameworkCore;
 
 namespace confitec_back.BLL
 {
@@ -25,7 +27,7 @@ namespace confitec_back.BLL
                 throw new DataNacimentoException("A Data de nascimento inserida é maior que o dia atual");
 
             if (!IsValid(usuarioRequest.Email))
-                throw new EmailInvalidoException("A Data de nascimento inserida é maior que o dia atual");
+                throw new EmailInvalidoException("Email inválido");
 
             Usuario usuarios = new Usuario
             {
@@ -44,13 +46,18 @@ namespace confitec_back.BLL
             return await _usuarioRepository.GetById(idUsuario);
         }
 
+        public async Task<List<Usuario>> BuscarTodosUsuariosAsync()
+        {
+            return await _usuarioRepository.GetAll().ToListAsync();
+        }
+
         public async Task<Usuario> AlterarUsuario(long idUsuario, UsuarioRequest usuarioRequest)
         {
             if (usuarioRequest.DataNascimento > DateTime.Today)
                 throw new DataNacimentoException("A Data de nascimento inserida é maior que o dia atual");
 
             if (!IsValid(usuarioRequest.Email))
-                throw new EmailInvalidoException("A Data de nascimento inserida é maior que o dia atual");
+                throw new EmailInvalidoException("Email inválido");
 
             Usuario usuarios = new Usuario
             {

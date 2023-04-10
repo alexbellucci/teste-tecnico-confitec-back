@@ -1,5 +1,6 @@
 ﻿using confitec_back.DL.DB;
 using confitec_back.DL.Request.Usuario;
+using System.Collections.Generic;
 using System.Threading.Tasks;
 
 namespace confitec_back.DL.Services.BLL
@@ -9,6 +10,8 @@ namespace confitec_back.DL.Services.BLL
         Task<Usuario> CriarUsuario(UsuarioRequest usuarioRequest);
 
         Task<Usuario> BuscarUsuarioAsync(long idUsuario);
+
+        Task<List<Usuario>> BuscarTodosUsuariosAsync();
 
         Task<Usuario> AlterarUsuario(long idUsuario, UsuarioRequest usuarioRequest);
 

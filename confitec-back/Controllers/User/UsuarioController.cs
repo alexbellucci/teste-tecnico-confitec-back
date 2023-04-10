@@ -2,6 +2,7 @@
 using confitec_back.DL.Request.Usuario;
 using confitec_back.DL.Services.BLL;
 using Microsoft.AspNetCore.Mvc;
+using System.Collections.Generic;
 using System.Threading.Tasks;
 
 namespace Controllers.User
@@ -21,6 +22,12 @@ namespace Controllers.User
         public async Task<Usuario> Obter(long usuarioId)
         {
             return await _usuarioService.BuscarUsuarioAsync(usuarioId);
+        }
+
+        [HttpGet("users")]
+        public async Task<List<Usuario>> ObterTodos()
+        {
+            return await _usuarioService.BuscarTodosUsuariosAsync();
         }
 
         [HttpPost]
